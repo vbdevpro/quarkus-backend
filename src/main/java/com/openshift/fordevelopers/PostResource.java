@@ -36,7 +36,7 @@ public class PostResource {
 
   @DELETE
   public Response delete(Post post) {
-    lastPosts.delete(post);
+    //lastPosts.delete(post);
     return Response.ok().build();
   }
 }
